@@ -36,5 +36,6 @@ void Game::start()
 	std::cout << "\n                    Your final score is: "<< f.snake_length() << std::endl;
 	for (int i = 0; i < 23 * 3; i++) std::cout << '*';
 
-	std::cout << "Do you want to start new Game?";
+	std::cout << "Do you want to start new Game?(Y or N): ";
+
 }
